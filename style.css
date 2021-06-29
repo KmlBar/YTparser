@@ -1,0 +1,25 @@
+body {
+    background-color: gray;
+}
+
+#timerBackground {
+    background-color: black;
+    opacity: 60%;
+    display: none;
+}
+
+#timerContainer {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timers {
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    pointer-events: none;
+}
